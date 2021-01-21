@@ -1,0 +1,49 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/list/list",
+    "pages/list/list_add",
+    "pages/list/list_detail",
+    "pages/list/list_edit",
+
+    "pages/space/space",
+    "pages/spacereserve/spacereserve",
+    "pages/apply/apply",
+
+    "pages/my/my",
+    "pages/myconferencelist/myconferencelist"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#f7982a",
+    "navigationBarTitleText": "服务",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "服务",
+        "iconPath": "images/xihuan.png",
+        "selectedIconPath": "images/xihuanfill.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我发起的",
+        "iconPath": "images/yonghu.png",
+        "selectedIconPath": "images/yonghufill.png"
+      }
+    ],
+    "color": "#333",
+    "selectedColor": "#f7982a",
+    "backgroundColor": "#f6f6f6",
+    "borderStyle": "white"
+  },
+  "style": "v2",
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "sitemapLocation": "sitemap.json"
+}

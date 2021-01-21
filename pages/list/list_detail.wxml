@@ -1,0 +1,21 @@
+<!--pages/list/list_detail.wxml-->
+<view class="container">
+  <view class="page-body">
+    <form catchsubmit="formSubmit" catchreset="formReset">
+      <view class="inputstyle">
+          <view class="itemView">ID：
+            <input type='text' name="id" class="input" placeholder="请输入ID" maxlength="6rpx" bindinput="idInput" value="{{id}}" disabled="false"/>
+          </view>
+          <view >用户名：
+            <input type='text' name="name"  placeholder="请输入用户名" maxlength="6rpx" bindinput="userNameInput" value="{{name}}" disabled="false"/>
+          </view>
+          <!-- <view class="itemView">密码：
+            <input type='text' name="password" class="input" placeholder="请输入密码" maxlength="6rpx" bindinput="passwordInput" value="{{password}}" disabled="false"/>
+          </view> -->
+          <view class="itemView">权限：
+            <input type='text' name='role' class="input" placeholder="请输入权限" maxlength="6rpx" bindinput="roleInput" value="{{role}}" disabled="false"/>
+          </view> 
+      </view>
+    </form>
+  </view>
+</view>
